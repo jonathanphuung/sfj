@@ -1,10 +1,11 @@
 *{
-    background-color: #ffafcc;
+    background-color: #ffffff;
+    font-family: Andale Mono, monospace;
 }
 
-body{
-    font-family: Andale Mono, monospace;
+h1{
+    color:#fb6f92 ;
     text-align: center;
-    margin: 0;
-    padding: 0;
+    font-size: 30px;
+    
 }
