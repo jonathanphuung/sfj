@@ -1,5 +1,7 @@
 *{
-    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Andale Mono, monospace;
 }
 
@@ -9,6 +11,10 @@ body {
     align-items: flex-start; 
     height: 100vh; 
     margin: 0; 
+    background-image: url('background.jpg'); /* Set the background image */
+    background-size: 100%; /* Adjust the size to zoom out the background image */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
 }
 
 h1{
