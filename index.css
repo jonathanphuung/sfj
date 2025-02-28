@@ -26,10 +26,10 @@ h1{
 }
 
 video{
-    width: 50%; 
+    width: 30%; 
     height: auto; 
     border-radius: 15px; 
     box-shadow: 0 0 10px rgba(0,0,0,0.5); 
-    margin-top: 50px; 
-    
+    margin: 125px auto 0 auto; /* Center the video horizontally */
+    display: block; /* Ensure the video is treated as a block element */
 }
