@@ -3,9 +3,31 @@
     font-family: Andale Mono, monospace;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 100vh; 
+    margin: 0; 
+}
+
 h1{
-    color:#fb6f92 ;
-    text-align: center;
+    color: #ffffff;
     font-size: 30px;
-    
+    background-color: #fb6f92; 
+    padding: 10px 20px; 
+    border-radius: 15px; 
+    border: 2px solid #fb6f92; 
+    display: inline-block; 
+    position: fixed; 
+    top: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+video{
+    width: 100%; 
+    height: auto; 
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    margin-top: 50px; 
 }
