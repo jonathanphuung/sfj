@@ -8,7 +8,7 @@
 body {
     display: flex;
     flex-direction: column; /* Arrange children in a column */
-    justify-content: center; /* Center children vertically */
+    justify-content: flex-start; /* Align children to the top */
     align-items: center; /* Center children horizontally */
     height: 100vh; 
     margin: 0; 
@@ -35,7 +35,7 @@ video{
     border-radius: 15px; 
     box-shadow: 0 0 10px rgba(0,0,0,0.5); 
     display: block; /* Ensure the video is treated as a block element */
-    margin-top: 125px auto; /* Adjust this value as needed */
+    margin: 0 auto; /* Center the video horizontally */
 }
 
 h2{
@@ -55,4 +55,6 @@ h2{
     justify-content: center; /* Centers video inside */
     align-items: center;
     width: 100%;
+    margin-top: 80px; /* Adjust this value to position the video below the h1 */
+    flex-direction: column; /* Arrange video and h2 in a column */
 }
