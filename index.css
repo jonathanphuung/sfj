@@ -27,6 +27,16 @@ h1{
     top: 20px; 
     left: 50%; 
     transform: translateX(-50%); 
+    z-index: 1; /* Ensure the h1 stays on top */
+}
+
+#video-container {
+    display: flex; 
+    justify-content: center; /* Centers video inside */
+    align-items: center;
+    width: 100%;
+    flex-direction: column; /* Arrange video and h2 in a column */
+    margin-top: 100px; /* Adjust this value to position the video below the h1 */
 }
 
 video{
@@ -48,13 +58,4 @@ h2{
     display: inline-block; 
     margin-top: 20px; /* Add space above the h2 element */
     text-align: center; 
-}
-
-#video-container {
-    display: flex; 
-    justify-content: center; /* Centers video inside */
-    align-items: center;
-    width: 100%;
-    margin-top: 80px; /* Adjust this value to position the video below the h1 */
-    flex-direction: column; /* Arrange video and h2 in a column */
 }
