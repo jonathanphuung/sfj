@@ -8,7 +8,7 @@
 body {
     display: flex;
     flex-direction: column; /* Arrange children in a column */
-    justify-content: flex-start; /* Align children to the top */
+    justify-content: center; /* Center children vertically */
     align-items: center; /* Center children horizontally */
     height: 100vh; 
     margin: 0; 
