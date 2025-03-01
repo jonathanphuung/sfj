@@ -50,3 +50,9 @@ h2{
     text-align: center; 
 }
 
+#video-container {
+    display: flex; 
+    justify-content: center; /* Centers video inside */
+    align-items: center;
+    width: 100%;
+}
