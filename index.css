@@ -7,8 +7,9 @@
 
 body {
     display: flex;
-    justify-content: center;
-    align-items: flex-start; 
+    flex-direction: column; /* Arrange children in a column */
+    justify-content: flex-start; /* Align children to the top */
+    align-items: center; /* Center children horizontally */
     height: 100vh; 
     margin: 0; 
     background-color: #ffffff; /* Set a background color instead */
@@ -33,7 +34,7 @@ video{
     height: auto; 
     border-radius: 15px; 
     box-shadow: 0 0 10px rgba(0,0,0,0.5); 
-    margin: 125px auto 0 auto; /* Center the video horizontally */
+    margin-top: 125px; /* Add space from the top */
     display: block; /* Ensure the video is treated as a block element */
 }
 
@@ -45,6 +46,6 @@ h2{
     border-radius: 15px; 
     border: 2px solid #fb6f92; 
     display: inline-block; 
-    margin: 20px auto; /* Center the h2 element horizontally */
+    margin-top: 20px; /* Add space above the h2 element */
     text-align: center; 
 }
