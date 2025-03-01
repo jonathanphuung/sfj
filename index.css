@@ -36,3 +36,15 @@ video{
     margin: 125px auto 0 auto; /* Center the video horizontally */
     display: block; /* Ensure the video is treated as a block element */
 }
+
+h2{
+    color: #ffffff; /* Change text color to white */
+    font-size: 20px; 
+    background-color: #fb6f92; /* Pink background */
+    padding: 10px 20px; 
+    border-radius: 15px; 
+    border: 2px solid #fb6f92; 
+    display: inline-block; 
+    margin: 20px auto; /* Center the h2 element horizontally */
+    text-align: center; 
+}
