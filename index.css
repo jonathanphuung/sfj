@@ -59,3 +59,19 @@ h2{
     margin-top: 20px; /* Add space above the h2 element */
     text-align: center; 
 }
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    gap: 10px;                         /* Space between blocks */
+    background-color: #ccc;            /* Grey background */
+    border-radius: 10px;               /* Rounded edges */
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto; 
+}
+.block {
+    background-color: #fff;            /* White background for each block */
+    border: 1px solid #999;
+    padding: 20px;
+    text-align: center;
+  }
