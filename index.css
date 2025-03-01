@@ -34,8 +34,8 @@ video{
     height: auto; 
     border-radius: 15px; 
     box-shadow: 0 0 10px rgba(0,0,0,0.5); 
-    margin-top: 125px; /* Add space from the top */
     display: block; /* Ensure the video is treated as a block element */
+    margin-top: 125px auto; /* Adjust this value as needed */
 }
 
 h2{
@@ -49,3 +49,4 @@ h2{
     margin-top: 20px; /* Add space above the h2 element */
     text-align: center; 
 }
+
