@@ -18,17 +18,15 @@ body {
 
 
 h1 {
-        color: #ffffff;
-        font-size: 30px;
-        background-color: #fb6f92; 
-        padding: 10px 20px; 
-        border-radius: 15px; 
-        border: 2px solid #fb6f92; 
-        top: 200px;
-        left: 50%;
-        padding: 15px 20px;
-        width: 100%; /* Optional: Makes it span the whole width */
-        text-align: center;
+    color: #ffffff; /* Change text color to white */
+    font-size: 35px; 
+    background-color: #fb6f92; /* Pink background */
+    padding: 10px 20px; 
+    border-radius: 15px; 
+    border: 2px solid #fb6f92; 
+    display: inline-block; 
+    margin-top: 20px; 
+    text-align: center; 
     } 
 
 
