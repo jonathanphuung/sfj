@@ -12,7 +12,7 @@ body {
     align-items: center; /* Center children horizontally */
     height: 100vh; 
     margin: 0; 
-    background-color: #ffffff; /* Set a background color instead */
+    background-color: #000000; /* Set a background color instead */
 }
 
 
@@ -20,10 +20,10 @@ body {
 h1 {
     color: #ffffff; /* Change text color to white */
     font-size: 35px; 
-    background-color: #fb6f92; /* Pink background */
+    background-color: #F966AB; /* Pink background */
     padding: 10px 20px; 
     border-radius: 15px; 
-    border: 2px solid #fb6f92; 
+    border: 2px solid #F966AB; 
     display: inline-block; 
     margin-top: 20px; 
     text-align: center; 
@@ -51,10 +51,10 @@ video{
 h2{
     color: #ffffff; /* Change text color to white */
     font-size: 20px; 
-    background-color: #fb6f92; /* Pink background */
+    background-color: #F966AB; /* Pink background */
     padding: 10px 20px; 
     border-radius: 15px; 
-    border: 2px solid #fb6f92; 
+    border: 2px solid #F966AB; 
     display: inline-block; 
     margin-top: 20px; /* Add space above the h2 element */
     text-align: center; 
@@ -63,18 +63,19 @@ h2{
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 5 columns */
     gap: 10px;                         /* Space between blocks */
-    background-color: #ccc;            /* Grey background */
+    background-color: #F966AB;            /* Grey background */
     border-radius: 10px;               /* Rounded edges */
     padding: 10px;
     width: 80%;
     margin: 20px auto; 
 }
 .block {
-    background-color: #fff;            /* White background for each block */
-    border: 1px solid #999;
+    background-color: #2D2D2D;            
+    
     padding: 20px;
     text-align: center;
     border-radius: 10px;  
     height: auto;   
     width: auto;  
+    color: #ffffff;
 }
