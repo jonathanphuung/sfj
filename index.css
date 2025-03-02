@@ -74,5 +74,7 @@ h2{
     border: 1px solid #999;
     padding: 20px;
     text-align: center;
-    border-radius: 10px;               /* Rounded edges */
-  }
+    border-radius: 10px;  
+    height: 100 px;    
+    width: auto;  
+}
