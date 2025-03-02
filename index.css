@@ -61,7 +61,7 @@ h2{
 }
 .container{
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    grid-template-columns: repeat(4, 1fr); /* 5 columns */
     gap: 10px;                         /* Space between blocks */
     background-color: #ccc;            /* Grey background */
     border-radius: 10px;               /* Rounded edges */
@@ -75,6 +75,6 @@ h2{
     padding: 20px;
     text-align: center;
     border-radius: 10px;  
-    height: 100 px;    
+    height: auto;   
     width: auto;  
 }
