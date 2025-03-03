@@ -106,3 +106,10 @@ button {
     flex-direction: column;
     z-index: 1000
 }
+
+#main-content {
+    display: none;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
