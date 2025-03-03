@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById("password-screen").style.display = "none"; 
             document.getElementById("main-content").style.display = "block"; 
         } else {
-            errorMessage.style.display = "block"; // Show error message if incorrect
+            errorMessage.style.display = "block"; 
         }
     }
 
-    // Expose function to global scope so button can call it
+  
     window.checkPassword = checkPassword;
 });
