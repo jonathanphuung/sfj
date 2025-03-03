@@ -44,8 +44,8 @@ video{
     height: auto; 
     border-radius: 15px; 
     box-shadow: 0 0 10px rgba(0,0,0,0.5); 
-    display: block; /* Ensure the video is treated as a block element */
-    margin: 0 auto; /* Center the video horizontally */
+    display: block; 
+    margin: 0 auto; 
 }
 
 h2{
