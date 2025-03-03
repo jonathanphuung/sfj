@@ -7,20 +7,20 @@
 
 body {
     display: flex;
-    flex-direction: column; /* Arrange children in a column */
-    justify-content: flex-start; /* Align children to the top */
-    align-items: center; /* Center children horizontally */
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
     height: 100vh; 
     margin: 0; 
-    background-color: #000000; /* Set a background color instead */
+    background-color: #000000; 
 }
 
 
 
 h1 {
-    color: #ffffff; /* Change text color to white */
+    color: #ffffff; 
     font-size: 35px; 
-    background-color: #F966AB; /* Pink background */
+    background-color: #F966AB; 
     padding: 10px 20px; 
     border-radius: 15px; 
     border: 2px solid #F966AB; 
@@ -32,11 +32,11 @@ h1 {
 
 #video-container {
     display: flex; 
-    justify-content: center; /* Centers video inside */
+    justify-content: center; 
     align-items: center;
     width: 100%;
-    flex-direction: column; /* Arrange video and h2 in a column */
-    margin-top: 100px; /* Adjust this value to position the video below the h1 */
+    flex-direction: column; 
+    margin-top: 100px; 
 }
 
 video{
@@ -49,22 +49,22 @@ video{
 }
 
 h2{
-    color: #ffffff; /* Change text color to white */
+    color: #ffffff; 
     font-size: 20px; 
-    background-color: #F966AB; /* Pink background */
+    background-color: #F966AB; 
     padding: 10px 20px; 
     border-radius: 15px; 
     border: 2px solid #F966AB; 
     display: inline-block; 
-    margin-top: 20px; /* Add space above the h2 element */
+    margin-top: 20px; 
     text-align: center; 
 }
 .container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 5 columns */
-    gap: 10px;                         /* Space between blocks */
-    background-color: #F966AB;            /* Grey background */
-    border-radius: 10px;               /* Rounded edges */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;                         
+    background-color: #F966AB;           
+    border-radius: 10px;               
     padding: 10px;
     width: 80%;
     margin: 20px auto; 
