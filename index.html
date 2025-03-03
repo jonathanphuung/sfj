@@ -6,35 +6,47 @@
     <title>Happy 1 Year!</title>
     <link rel="stylesheet" href="index.css">
     <style>
-        
+        /* Style for the password screen */
         #password-screen {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            z-index: 1000;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: #000000;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          z-index: 1000;
         }
+        /* Make sure the main content is hidden initially */
         #main-content {
-            display: none; 
+          display: none;
+          text-align: center; /* Center the text and inline elements */
+          margin: 0 auto;
         }
-    </style>
-</head>
-<body>
-    <!-- Password screen -->
-    <div id="password-screen">
+        /* Styling for the password input */
+        #password-input {
+          background-color: #2D2D2D; /* New background color */
+          color: #fff;              /* White text for contrast */
+          margin-top: 20px;
+          padding: 10px;
+          border: none;
+          margin-bottom: 15px;      /* Adds space below the input */
+        }
+      </style>
+    </head>
+    <body>
+      <!-- Password screen -->
+      <div id="password-screen">
         <h2>Enter Password</h2>
         <input type="password" id="password-input" placeholder="Password">
         <button onclick="checkPassword()">Submit</button>
         <p id="error-message" style="color: red; display: none;">Incorrect password. Try again.</p>
-    </div>
-
-    <!-- Main content (hidden initially) -->
+      </div>
+    
+   
     <div id="main-content">
         <div>
             <h1>Happy 1 Year!</h1>   

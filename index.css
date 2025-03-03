@@ -83,3 +83,13 @@ h2{
     text-align: center;
     margin: 0 auto;
 }
+
+button {
+    background-color: #F966AB; 
+    color: #ffffff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 20px; 
+}
