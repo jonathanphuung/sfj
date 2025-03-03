@@ -79,3 +79,7 @@ h2{
     width: auto;  
     color: #ffffff;
 }
+#main-content {
+    text-align: center;
+    margin: 0 auto;
+}

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const correctPassword = "yourSecurePassword"; // Change this to your desired password
+    const correctPassword = "Americus"; // Change this to your desired password
 
     function checkPassword() {
         let userPassword = document.getElementById("password-input").value;

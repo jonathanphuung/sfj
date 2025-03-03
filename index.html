@@ -5,65 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy 1 Year!</title>
     <link rel="stylesheet" href="index.css">
+    <style>
+        /* Style for the password screen */
+        #password-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 1000;
+        }
+        #main-content {
+            display: none; /* Hide the main content until password is entered */
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <h1>Happy 1 Year!</h1>   
-
-    </div>
-    <div id="video-container">
-        <video autoplay muted loop id="myVideo">
-            <source src="spj.MP4" type="video/mp4">
-        </video>
-
+    <!-- Password screen -->
+    <div id="password-screen">
+        <h2>Enter Password</h2>
+        <input type="password" id="password-input" placeholder="Password">
+        <button onclick="checkPassword()">Submit</button>
+        <p id="error-message" style="color: red; display: none;">Incorrect password. Try again.</p>
     </div>
 
-    <div>
-        <h2>Reasons Why I Lava You</h2>
-    </div>
-    <div class="container">
-        <div class="block">You make me the happiest man alive</div>
-        <div class="block">You treat me so so so so good</div>
-        <div class="block">I can be my natural self (fruity)</div>
-        <div class="block">You always support me and push me to work harder</div>
-        <div class="block">You always make me smile</div>
-        <div class="block">You genuninly care for me</div>
-        <div class="block">You  understand my humor (sometimes)</div>
-        <div class="block">You are the most beautiful girl in the world</div>    
-        <div class="block">You are my best friend</div>
-        <div class="block">You are perfect for me</div>
-        <div class="block">I cant smell your farts</div>
-        <div class="block">You come poop and smell my farts</div>
-        <div class="block">You always want to be with me</div>
-        <div class="block">You genuninly care for me</div>
-        <div class="block">You are my wabba</div>
-        <div class="block">You are my toottoot</div>
-        <div class="block">You are my baby</div>
-        <div class="block">You shnookums</div>
-        <div class="block">pookiedookiebookiecutiepie</div>
-        <div class="block">You take care of me when im sick</div>
-        <div class="block">You keep me accountable HMPH</div>
-        <div class="block">You always think about me</div>
-        <div class="block">You are litereally me in a differnt font ( u wanna be me so bad )</div>
-        <div class="block">You are my everything</div>
-    </div>
-    
-    <div>
-        <h2>My Favorite Moments Together!</h2>
-    </div>
-    <div>
-        
-        
-    
+    <!-- Main content (hidden initially) -->
+    <div id="main-content">
+        <div>
+            <h1>Happy 1 Year!</h1>   
+        </div>
+        <div id="video-container">
+            <video autoplay muted loop id="myVideo">
+                <source src="spj.MP4" type="video/mp4">
+            </video>
+        </div>
+
+        <div>
+            <h2>Reasons Why I Lava You</h2>
+        </div>
+        <div class="container">
+            <div class="block">You make me the happiest man alive</div>
+            <div class="block">You treat me so so so so good</div>
+            <div class="block">I can be my natural self (fruity)</div>
+            <div class="block">You always support me and push me to work harder</div>
+            <div class="block">You always make me smile</div>
+            <div class="block">You genuinely care for me</div>
+            <div class="block">You understand my humor (sometimes)</div>
+            <div class="block">You are the most beautiful girl in the world</div>
+            <div class="block">You are my best friend</div>
+            <div class="block">You are perfect for me</div>
+            <div class="block">I can't smell your farts</div>
+            <div class="block">You come poop and smell my farts</div>
+            <div class="block">You always want to be with me</div>
+            <div class="block">You genuinely care for me</div>
+            <div class="block">You are my wabba</div>
+            <div class="block">You are my toottoot</div>
+            <div class="block">You are my baby</div>
+            <div class="block">You shnookums</div>
+            <div class="block">pookiedookiebookiecutiepie</div>
+            <div class="block">You take care of me when I'm sick</div>
+            <div class="block">You keep me accountable HMPH</div>
+            <div class="block">You always think about me</div>
+            <div class="block">You are literally me in a different font (u wanna be me so bad)</div>
+            <div class="block">You are my everything</div>
+        </div>
+
+        <div>
+            <h2>My Favorite Moments Together!</h2>
+        </div>
         
         <iframe 
-        src="https://docs.google.com/presentation/d/e/2PACX-1vRFzzqydLLrXaOXEkP4PjOUnziQk2EVe23AdnaORqAC4LedMOzG6dTyVFR1QX5HKWYtXurUgcAczAHp/embed?&loop=true&delayms=3000&rm=minimal&slide=id.p" 
-        width="1100" 
-        height="620" 
-        style="display: block; margin: 0 auto; border: none;" >
-    </iframe>
- </div>
-    
+            src="https://docs.google.com/presentation/d/e/2PACX-1vRFzzqydLLrXaOXEkP4PjOUnziQk2EVe23AdnaORqAC4LedMOzG6dTyVFR1QX5HKWYtXurUgcAczAHp/embed?&loop=true&delayms=3000&rm=minimal&slide=id.p" 
+            width="1100" 
+            height="620" 
+            style="display: block; margin: 0 auto; border: none;">
+        </iframe>
+    </div>
+
     <script src="index.js"></script>
 </body>
-</html> 
+</html>
