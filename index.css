@@ -113,3 +113,12 @@ button {
     margin: 0 auto;
   }
   
+
+  #password-input {
+    background-color: #2D2D2D; 
+    color: #fff;              
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    margin-bottom: 15px;     
+  }
